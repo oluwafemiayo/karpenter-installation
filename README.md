@@ -53,7 +53,7 @@ This repository contains a script for installing Karpenter, a Kubernetes Autosca
     If you need to uninstall Karpenter, you can run:
 
     ```bash
-    helm uninstall karpenter -n karpenter
+    kuebctl delete -f karpenter.yaml
     ```
 Reference Link: https://karpenter.sh/docs/getting-started/migrating-from-cas/
 
