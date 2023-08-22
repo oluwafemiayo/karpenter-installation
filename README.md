@@ -7,7 +7,8 @@ This repository contains a script for installing Karpenter, a Kubernetes Autosca
 
 - A running Kubernetes cluster (version 1.27 or later)
 - `kubectl` command-line tool installed and configured to interact with your cluster
-- AWS credentials configured if you're using Amazon EKS (or other cloud provider credentials for different platforms)
+- AWS `aws cli` credentials configured if you're using Amazon EKS (or other cloud provider credentials for different platforms)
+- `ekctl`
 - Helm v3 or later installed (required for Karpenter Helm chart installation)
 
 ## Installation Steps
