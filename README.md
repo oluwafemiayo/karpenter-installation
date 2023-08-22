@@ -1,7 +1,7 @@
 # karpenter-installation
 # Karpenter Installation Script
 
-This repository contains a script for installing Karpenter, a Kubernetes Autoscaling Framework developed by Uber. The installation script simplifies the process of setting up Karpenter on your Kubernetes cluster.
+This repository contains a script for installing Karpenter, a Kubernetes Autoscaling Framework. The installation script simplifies the process of setting up Karpenter on your Kubernetes cluster.
 
 ## Prerequisites
 
