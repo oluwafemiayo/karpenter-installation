@@ -46,5 +46,5 @@ This repository contains a script for installing Karpenter, a Kubernetes Autosca
     ```bash
     helm uninstall karpenter -n karpenter
     ```
-
+Reference Link: https://karpenter.sh/docs/getting-started/migrating-from-cas/
 
