@@ -254,3 +254,8 @@ EOF
 #Verify Karpenter
 
 kubectl logs -f -n karpenter -c controller -l app.kubernetes.io/name=karpenter
+
+
+#Deploy Inflate
+
+kubectl apply -f inflate.yaml
