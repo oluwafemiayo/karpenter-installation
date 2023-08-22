@@ -39,8 +39,14 @@ This repository contains a script for installing Karpenter, a Kubernetes Autosca
 
     You should see Karpenter-related pods in a "Running" state.
 
+5. Deploy workload.
+   Kubectl apply -f inflate.yaml.
 
-5. (Optional) Uninstall Karpenter:
+   <img width="839" alt="Screen Shot 2023-08-23 at 00 48 06" src="https://github.com/oluwafemiayo/karpenter-installation/assets/115284052/321becaf-cb27-4e0e-a4bd-b1514175f6b7">
+
+
+
+7. (Optional) Uninstall Karpenter:
 
     If you need to uninstall Karpenter, you can run:
 
