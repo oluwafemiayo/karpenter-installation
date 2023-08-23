@@ -1,14 +1,14 @@
 # karpenter-installation
 # Karpenter Installation Script
 
-This repository contains a script for installing Karpenter, a Kubernetes Autoscaling Framework. The installation script simplifies the process of setting up Karpenter on your Kubernetes cluster.
+This repository contains a guide script for installing Karpenter, a Kubernetes Autoscaling Framework. The installation script simplifies the process of setting up Karpenter on your Kubernetes cluster. The installation script is explanatory. See reference [Karpenter   documentation](https://karpenter.sh/docs/getting-started/migrating-from-cas/
 
 ## Prerequisites
 
 - A running Kubernetes cluster (version 1.27 or later)
-- `kubectl` command-line tool installed and configured to interact with your cluster
-- AWS `aws cli` credentials configured if you're using Amazon EKS (or other cloud provider credentials for different platforms)
-- `ekctl`
+- `kubectl` command-line tool installed and configured to interact with kubernetes cluster.
+- `aws cli`The AWS Command Line Interface (AWS CLI) is a command-line tool provided by Amazon.
+- AWS credentials configured if you're using Amazon EKS (or other cloud provider credentials for different platforms)
 - Helm v3 or later installed (required for Karpenter Helm chart installation)
 
 ## Installation Steps
@@ -18,6 +18,7 @@ This repository contains a script for installing Karpenter, a Kubernetes Autosca
     ```bash
     git clone https://github.com/oluwafemiayo/karpenter-installation.git
     cd karpenter-installation
+    vim karpenter-install.sh
     ```
 
 2. Review the Installation Script:
@@ -54,7 +55,7 @@ This repository contains a script for installing Karpenter, a Kubernetes Autosca
 
     ```bash
     kubectl delete -f inflate.yaml
-    kuebctl delete -f provisoner.yaml
+    kubectl delete -f provisoner.yaml
     kubectl delete -f karpenter.yaml
 
     ```
