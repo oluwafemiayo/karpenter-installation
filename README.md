@@ -59,5 +59,5 @@ This repository contains a guide script for installing Karpenter, a Kubernetes A
     kubectl delete -f karpenter.yaml
 
     ```
-Reference Link: https://karpenter.sh/docs/getting-started/migrating-from-cas/
+Reference Link : https://karpenter.sh/docs/getting-started/migrating-from-cas/
 
